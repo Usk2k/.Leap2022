@@ -102,7 +102,60 @@
 // condition ? true : false;
 // const myStage = age >= 10 && age <= 18 ? "teenage" : "adult";
 
-let number = 20000;
-let strNum = number.toString();
-console.log(typeof strNum);
-console.log(typeof number);
+// let number = 20000;
+// let strNum = number.toString();
+// console.log(typeof strNum);
+// console.log(typeof number);
+
+// let count = 1;
+// while (count <= 10) {
+//   console.log(count);
+//   count = count + 1;
+// }
+
+// let countB = 0;
+// let count = 0;
+// let text =
+//   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+// while (count < text.length) {
+//   if (text[count] == "b" || text[count == "B"]) {
+//     countB = countB + 1;
+//   }
+//   count = count + 1;
+// }
+// console.log(countB);
+
+// let countC = 0;
+// let countc = 0;
+// let lorem =
+//   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+// while (countc < text.length) {
+//   if (lorem[countc] == "c" || lorem[countc == "C"]) {
+//     countC = countC + 1;
+//   }
+//   countc = countc + 1;
+// }
+// console.log(countC);
+
+// let number = 100;
+// number++;
+// console.log(number);
+
+// let num = 100;
+// let count = 0;
+// while (num > 0) {
+//   if (num % 3 == 0) {
+//     count++;
+//   }
+// }
+// console.log();
+
+let number = 123456789987;
+
+console.log(number.charAt(number.length - 3));
+console.log(number.substring(1, 3));
+Number =
+  number.substring(0, number.length - 3) +
+  "+" +
+  number.substring(number.length - 3, number / length);
+console.log(number);
