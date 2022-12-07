@@ -44,8 +44,22 @@
 //   }
 // }
 
-let now = new Date(0);
-console.log(now);
+// let now = new Date(0);
+// console.log(now);
 
-let Date = new Date("2019-01-26");
-console.log(date);
+// let Date = new Date("2019-01-26");
+// console.log(date);
+
+//--------------=----10.7-----//
+
+// const weekDays = ["heheh", " hahahah", "kkkkk"];
+// console.log(weekDays.push(" "));
+
+// console.log(weekDays);
+// ----------------------------------------- Utga nemeh -----------------------------------------------------------------------------//
+// const arr = ["heheh", " hahahah", "kkkkk"];
+// arr.splice(1, 0, "Kinoooo");
+// console.log(arr);
+//-----------------------------------split-----------------------------------//
+// const p = "heheh  hahahah kkkkk";
+// console.log(p.replace("sea", "kekekkeke"));
